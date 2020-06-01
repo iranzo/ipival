@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "when": "2020-06-01T13:18:10.004525",
+    "when": "2020-06-01T13:40:47.254440",
     "live": false,
     "source": "citellus",
-    "time": 0.17316985130310059,
+    "time": 0.17555999755859375,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
@@ -11,10 +11,10 @@
   "results": {
     "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a": {
       "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh",
-      "backend": "faraday",
+      "backend": "core",
       "id": "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
-      "category": "home",
-      "subcategory": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters",
+      "category": "requiredparameters",
+      "subcategory": "",
       "hash": "887fe2713847fe82328e7342016ba44fed1f54a86343c9f34bf49dd46fe9723b4a5bbe81bf0b9adf64f428a125d39dcde9d5471355c5ec3e4deef7b2011d7d62",
       "name": "apiVIP",
       "description": "Checks for required parameters",
@@ -28,14 +28,14 @@
         "out": "",
         "err": "Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.03176069259643555
+      "time": 0.027533769607543945
     },
     "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb": {
       "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
-      "backend": "faraday",
+      "backend": "core",
       "id": "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
-      "category": "home",
-      "subcategory": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters",
+      "category": "requiredparameters",
+      "subcategory": "",
       "hash": "3eb1080d06b8584fff1250ce7ac4b084b673303fdd6e1660e4284d1b199a697cd67e69b1895f64022b6643eb36d991862939625150892cbeb036ae217ccce9a1",
       "name": "provisioningNetworkInterface",
       "description": "Checks for required parameters",
@@ -49,28 +49,7 @@
         "out": "",
         "err": "Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.030332565307617188
-    },
-    "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/profiles/IPI-validations.txt",
-      "backend": "winston",
-      "id": "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966",
-      "category": "home",
-      "subcategory": "home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/profiles",
-      "hash": "99f4fec93936cb5f2411a90a273518f62b5748629d9a45066f726eb8b7191b4c743d747bfb100e8809495f7d74c66512001e4d655db40ef7f78b499a01ba2eda",
-      "name": "IPI-validations",
-      "description": "Checks IPI Validations results",
-      "long_name": "IPI Validations",
-      "bugzilla": "",
-      "priority": 0,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 30,
-        "out": "",
-        "err": "File  is not accessible in read mode"
-      },
-      "time": 0.00022792816162109375
+      "time": 0.02510213851928711
     },
     "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
       "category": "Profiles: CCN-STIC-619",
