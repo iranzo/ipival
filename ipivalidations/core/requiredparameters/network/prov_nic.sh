@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# long_name: Checks apiVIP defined in inventory file
+# long_name: Checks prov_nic defined in inventory file
 # description: Checks for required parameters
 # priority: 900
 # bugzilla:
@@ -25,7 +25,7 @@
 FILE="${CITELLUS_ROOT}/inventory"
 is_mandatory_file ${FILE}
 
-for config in apiVIP; do
+for config in prov_nic; do
     if ! is_lineinfile "^${config}" ${FILE}; then
         echo "Missing option ${config} for ${FILE}" >&2
         exit ${RC_FAILED}
