@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "when": "2020-06-02T14:06:43.761211",
+    "when": "2020-06-02T14:13:00.382052",
     "live": false,
     "source": "citellus",
-    "time": 0.14141249656677246,
+    "time": 0.1303083896636963,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
@@ -92,6 +92,31 @@
         "err": ""
       },
       "time": 0.022296428680419922
+    },
+    "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966": {
+      "category": "Profiles: IPI-validations",
+      "hash": "99f4fec93936cb5f2411a90a273518f62b5748629d9a45066f726eb8b7191b4c743d747bfb100e8809495f7d74c66512001e4d655db40ef7f78b499a01ba2eda",
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/profiles/IPI-validations.txt",
+      "name": "Profiles: IPI-validations",
+      "result": {
+        "rc": 20,
+        "err": "[{\"plugin_id\": \"9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/pub_nic.sh\", \"err\": \"\", \"rc\": 10}]",
+        "out": ""
+      },
+      "time": 0,
+      "backend": "profile",
+      "id": "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966",
+      "subcategory": "",
+      "description": "Checks IPI Validations results",
+      "long_name": "IPI Validations",
+      "bugzilla": "",
+      "priority": 0,
+      "components": [
+        "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
+        "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843",
+        "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
+        "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0"
+      ]
     },
     "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
       "category": "Profiles: CCN-STIC-619",
