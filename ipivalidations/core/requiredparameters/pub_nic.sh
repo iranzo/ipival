@@ -25,7 +25,7 @@
 FILE="${CITELLUS_ROOT}/inventory"
 is_mandatory_file ${FILE}
 
-for config in provisioningNetworkInterface; do
+for config in pub_nic; do
     if ! is_lineinfile "^${config}" ${FILE}; then
         echo "Missing option ${config} for ${FILE}" >&2
         exit ${RC_FAILED}

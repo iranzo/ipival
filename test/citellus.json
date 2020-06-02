@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "when": "2020-06-01T13:40:47.254440",
+    "when": "2020-06-02T14:06:43.761211",
     "live": false,
     "source": "citellus",
-    "time": 0.17555999755859375,
+    "time": 0.14141249656677246,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
@@ -15,7 +15,7 @@
       "id": "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
       "category": "requiredparameters",
       "subcategory": "",
-      "hash": "887fe2713847fe82328e7342016ba44fed1f54a86343c9f34bf49dd46fe9723b4a5bbe81bf0b9adf64f428a125d39dcde9d5471355c5ec3e4deef7b2011d7d62",
+      "hash": "9031c45dedf2c7027ebe2ae42a5a565152253e552c5188bb5dfce9f59d63d6663f6617352a90cc84c95da6575ecc6b418db39f42a0dc86f2a315ad1f2a803813",
       "name": "apiVIP",
       "description": "Checks for required parameters",
       "long_name": "Checks provisioningNetworkInterface defined in inventory file",
@@ -28,7 +28,28 @@
         "out": "",
         "err": "Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.027533769607543945
+      "time": 0.020931005477905273
+    },
+    "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843": {
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/prov_nic.sh",
+      "backend": "core",
+      "id": "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843",
+      "category": "requiredparameters",
+      "subcategory": "",
+      "hash": "8836f188fe33540b1d3fa8f63a5b5901f783e5a1e6521d2261718bdbe792053f3bf3f4dd9775bc61dcae882f3f379e32511afe73212335dc35219523ddf11040",
+      "name": "prov_nic",
+      "description": "Checks for required parameters",
+      "long_name": "Checks provisioningNetworkInterface defined in inventory file",
+      "bugzilla": "",
+      "priority": 900,
+      "path": "",
+      "kb": "",
+      "result": {
+        "rc": 10,
+        "out": "",
+        "err": ""
+      },
+      "time": 0.0283815860748291
     },
     "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb": {
       "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
@@ -36,7 +57,7 @@
       "id": "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
       "category": "requiredparameters",
       "subcategory": "",
-      "hash": "3eb1080d06b8584fff1250ce7ac4b084b673303fdd6e1660e4284d1b199a697cd67e69b1895f64022b6643eb36d991862939625150892cbeb036ae217ccce9a1",
+      "hash": "7f159399274badc4a0ed2c969a5003321d3fbdb226d59ae95d2b2d97204a0c5d0c2160ca794cf9835e0dd9975e41cbd512919ff934f3b8386614ba8d4f6bb774",
       "name": "provisioningNetworkInterface",
       "description": "Checks for required parameters",
       "long_name": "Checks provisioningNetworkInterface defined in inventory file",
@@ -49,7 +70,28 @@
         "out": "",
         "err": "Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.02510213851928711
+      "time": 0.02103447914123535
+    },
+    "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0": {
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/pub_nic.sh",
+      "backend": "core",
+      "id": "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0",
+      "category": "requiredparameters",
+      "subcategory": "",
+      "hash": "4bd84c027e47f22462b3e69d9700d6e00d599fe37200441c4e107d806c6762d1a46c5962ccd566e64208393433efbf40e6fb9a93f08ff2a2291bacc849a2acaf",
+      "name": "pub_nic",
+      "description": "Checks for required parameters",
+      "long_name": "Checks provisioningNetworkInterface defined in inventory file",
+      "bugzilla": "",
+      "priority": 900,
+      "path": "",
+      "kb": "",
+      "result": {
+        "rc": 10,
+        "out": "",
+        "err": ""
+      },
+      "time": 0.022296428680419922
     },
     "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
       "category": "Profiles: CCN-STIC-619",

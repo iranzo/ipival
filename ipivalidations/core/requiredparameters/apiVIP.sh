@@ -28,12 +28,6 @@ is_mandatory_file ${FILE}
 for config in apiVIP; do
     if ! is_lineinfile "^${config}" ${FILE}; then
         echo "Missing option ${config} for ${FILE}" >&2
-        flagboot=1
-    fi
-done
-
-for check in flagboot; do
-    if [[ $(set | grep ^${check} | cut -d "=" -f2) != "0" ]]; then
         exit ${RC_FAILED}
     fi
 done
