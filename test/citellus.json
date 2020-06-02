@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "when": "2020-06-02T14:13:00.382052",
+    "when": "2020-06-02T14:19:13.332375",
     "live": false,
     "source": "citellus",
-    "time": 0.1303083896636963,
+    "time": 0.15258407592773438,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
@@ -30,27 +30,6 @@
       },
       "time": 0.020931005477905273
     },
-    "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/prov_nic.sh",
-      "backend": "core",
-      "id": "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843",
-      "category": "requiredparameters",
-      "subcategory": "",
-      "hash": "8836f188fe33540b1d3fa8f63a5b5901f783e5a1e6521d2261718bdbe792053f3bf3f4dd9775bc61dcae882f3f379e32511afe73212335dc35219523ddf11040",
-      "name": "prov_nic",
-      "description": "Checks for required parameters",
-      "long_name": "Checks provisioningNetworkInterface defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 10,
-        "out": "",
-        "err": ""
-      },
-      "time": 0.0283815860748291
-    },
     "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb": {
       "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
       "backend": "core",
@@ -72,12 +51,33 @@
       },
       "time": 0.02103447914123535
     },
-    "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/pub_nic.sh",
+    "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52": {
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh",
       "backend": "core",
-      "id": "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0",
+      "id": "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
       "category": "requiredparameters",
-      "subcategory": "",
+      "subcategory": "requiredparameters/network",
+      "hash": "8836f188fe33540b1d3fa8f63a5b5901f783e5a1e6521d2261718bdbe792053f3bf3f4dd9775bc61dcae882f3f379e32511afe73212335dc35219523ddf11040",
+      "name": "prov_nic",
+      "description": "Checks for required parameters",
+      "long_name": "Checks provisioningNetworkInterface defined in inventory file",
+      "bugzilla": "",
+      "priority": 900,
+      "path": "",
+      "kb": "",
+      "result": {
+        "rc": 10,
+        "out": "",
+        "err": ""
+      },
+      "time": 0.021228313446044922
+    },
+    "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5": {
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh",
+      "backend": "core",
+      "id": "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5",
+      "category": "requiredparameters",
+      "subcategory": "requiredparameters/network",
       "hash": "4bd84c027e47f22462b3e69d9700d6e00d599fe37200441c4e107d806c6762d1a46c5962ccd566e64208393433efbf40e6fb9a93f08ff2a2291bacc849a2acaf",
       "name": "pub_nic",
       "description": "Checks for required parameters",
@@ -91,7 +91,7 @@
         "out": "",
         "err": ""
       },
-      "time": 0.022296428680419922
+      "time": 0.02141571044921875
     },
     "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966": {
       "category": "Profiles: IPI-validations",
@@ -100,7 +100,7 @@
       "name": "Profiles: IPI-validations",
       "result": {
         "rc": 20,
-        "err": "[{\"plugin_id\": \"9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/pub_nic.sh\", \"err\": \"\", \"rc\": 10}]",
+        "err": "[{\"plugin_id\": \"9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh\", \"err\": \"\", \"rc\": 10}]",
         "out": ""
       },
       "time": 0,
@@ -113,9 +113,9 @@
       "priority": 0,
       "components": [
         "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
-        "637c3939cfc23bb580edf90eff3fac43a9935f04e3c5e0f021bb3f22fa3c2a64c119746ce0583b6196fc3758aa6d4da29f1d36a7aab46d47c5ef814ac3d49843",
         "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
-        "19fed6600efd2a97627d02944c72cf117df02d24ce1888c1ca226401d10b91026d36d42b7b45b6499daaeb8be9b9bca6a466ad95358f87f2aa405294c6e86af0"
+        "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
+        "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5"
       ]
     },
     "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
