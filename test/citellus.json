@@ -1,139 +1,34 @@
 {
   "metadata": {
-    "when": "2020-06-02T14:27:36.416045",
+    "when": "2020-06-02T15:15:46.955889",
     "live": false,
     "source": "citellus",
-    "time": 0.16321897506713867,
+    "time": 0.17545652389526367,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
   },
   "results": {
-    "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh",
+    "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927": {
+      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/optimizations/cache_enabled.sh",
       "backend": "core",
-      "id": "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
-      "category": "requiredparameters",
+      "id": "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927",
+      "category": "optimizations",
       "subcategory": "",
-      "hash": "6156637f693e9deaadb2ae84877e30d17addc5105e8796d8d6d6e3996b988293c35502fdfdd675d4a72f0ae7607bdd3cf1450d15ac2a2cc74aeded04ecef10b8",
-      "name": "apiVIP",
+      "hash": "f494eedca1336fdb9ce639db9c0274184552ff74c8e9df9c4b6910edd700da8a51654c4a126144295167443096302eefc41d85fda1a3bc7cb1f3091fd7d2ce32",
+      "name": "cache_enabled",
       "description": "Checks for required parameters",
-      "long_name": "Checks apiVIP defined in inventory file",
+      "long_name": "Checks if cache is enabled or not defined in inventory file",
       "bugzilla": "",
       "priority": 900,
       "path": "",
       "kb": "",
       "result": {
-        "rc": 20,
+        "rc": 40,
         "out": "",
-        "err": "Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
+        "err": "It's recommended to set cache_enabled = True to improve performance"
       },
-      "time": 0.028551578521728516
-    },
-    "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
-      "backend": "core",
-      "id": "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
-      "category": "requiredparameters",
-      "subcategory": "",
-      "hash": "7f159399274badc4a0ed2c969a5003321d3fbdb226d59ae95d2b2d97204a0c5d0c2160ca794cf9835e0dd9975e41cbd512919ff934f3b8386614ba8d4f6bb774",
-      "name": "provisioningNetworkInterface",
-      "description": "Checks for required parameters",
-      "long_name": "Checks provisioningNetworkInterface defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 20,
-        "out": "",
-        "err": "Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
-      },
-      "time": 0.02103447914123535
-    },
-    "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh",
-      "backend": "core",
-      "id": "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
-      "category": "requiredparameters",
-      "subcategory": "requiredparameters/network",
-      "hash": "fca2c3723362abd8ace922dfc36062dca985575eb4413852b3cbb3ebcba14bf85cef2c2e39bce1f774de716b646371355c0177f50db63c7762e9a1bed319605b",
-      "name": "prov_nic",
-      "description": "Checks for required parameters",
-      "long_name": "Checks prov_nic defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 10,
-        "out": "",
-        "err": ""
-      },
-      "time": 0.02562427520751953
-    },
-    "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh",
-      "backend": "core",
-      "id": "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5",
-      "category": "requiredparameters",
-      "subcategory": "requiredparameters/network",
-      "hash": "aa159a2dc4b1ec532f170ce4cc9846fcd948d6689dbdff7bb906df66f584e9900d818667144bb82ea589cf913f5b50fc2c3c212f3d728d89fed75cc2a2819c21",
-      "name": "pub_nic",
-      "description": "Checks for required parameters",
-      "long_name": "Checks pub_nic defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 10,
-        "out": "",
-        "err": ""
-      },
-      "time": 0.02640056610107422
-    },
-    "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/build.sh",
-      "backend": "core",
-      "id": "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b",
-      "category": "requiredparameters",
-      "subcategory": "requiredparameters/openshift",
-      "hash": "dea7b581dcc9cb03c306a1ce4d6d53fe0ff9c0889acd4b17e961394c94ea73f0d56b2357e4676b8d4990ab4247178b398f0944de4ea98a5379a6ab1dc42092e1",
-      "name": "build",
-      "description": "Checks for required parameters",
-      "long_name": "Checks BUILD defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 10,
-        "out": "",
-        "err": ""
-      },
-      "time": 0.02463674545288086
-    },
-    "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/version.sh",
-      "backend": "core",
-      "id": "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4",
-      "category": "requiredparameters",
-      "subcategory": "requiredparameters/openshift",
-      "hash": "2e2d817ce92433a696cd2f37e005124da4531f0be136d1e2dc0030bfaa61c741c8fbfafd9be2418dd0856953efe7cc9a65e28a07d67667c77cd9282eac3e53bc",
-      "name": "version",
-      "description": "Checks for required parameters",
-      "long_name": "Checks Version defined in inventory file",
-      "bugzilla": "",
-      "priority": 900,
-      "path": "",
-      "kb": "",
-      "result": {
-        "rc": 10,
-        "out": "",
-        "err": ""
-      },
-      "time": 0.025161027908325195
+      "time": 0.026526451110839844
     },
     "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966": {
       "category": "Profiles: IPI-validations",
@@ -141,8 +36,8 @@
       "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/profiles/IPI-validations.txt",
       "name": "Profiles: IPI-validations",
       "result": {
-        "rc": 20,
-        "err": "[{\"plugin_id\": \"9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/build.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/version.sh\", \"err\": \"\", \"rc\": 10}]",
+        "rc": 40,
+        "err": "[{\"plugin_id\": \"6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/optimizations/cache_enabled.sh\", \"err\": \"It's recommended to set cache_enabled = True to improve performance\", \"rc\": 40}]",
         "out": ""
       },
       "time": 0,
@@ -154,12 +49,7 @@
       "bugzilla": "",
       "priority": 0,
       "components": [
-        "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
-        "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
-        "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
-        "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5",
-        "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b",
-        "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4"
+        "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927"
       ]
     },
     "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
