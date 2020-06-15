@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "when": "2020-06-02T15:17:10.428176",
+    "when": "2020-06-15T13:43:24.241703",
     "live": false,
     "source": "citellus",
-    "time": 0.1926274299621582,
+    "time": 0.1579277515411377,
     "branding": "                                                  ",
     "extranames": null,
     "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
   },
   "results": {
-    "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/optimizations/cache_enabled.sh",
+    "ced44ca97004b169036eaf92e0273b5229e2ece79a5c9ffd6f590ffa1faff409b3e9054285a59cf906e79c64ab76910614cea2def23b9eb235bea04c6080f216": {
+      "plugin": "ipivalidations/core/optimizations/cache_enabled.sh",
       "backend": "core",
-      "id": "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927",
+      "id": "ced44ca97004b169036eaf92e0273b5229e2ece79a5c9ffd6f590ffa1faff409b3e9054285a59cf906e79c64ab76910614cea2def23b9eb235bea04c6080f216",
       "category": "optimizations",
       "subcategory": "",
       "hash": "1d31b7ec9cf9eb091500820ec24372e2eda97026f1529ba4d40f2249f5777f7321c23009a1117fa8b3b59800779e954534d8f730efa23fcd57bec6459aaaa023",
@@ -28,12 +28,12 @@
         "out": "",
         "err": "It's recommended to set cache_enabled = True to improve performance"
       },
-      "time": 0.04046821594238281
+      "time": 0.04122328758239746
     },
-    "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh",
+    "2fbb5eb9dbbdb32fc99c12eca1eec16be94490a9b830884982c6398f44fa0794a2b07818e4953c635159b24e0f5a451c479769e9937984fe918933da066f12b5": {
+      "plugin": "ipivalidations/core/requiredparameters/apiVIP.sh",
       "backend": "core",
-      "id": "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
+      "id": "2fbb5eb9dbbdb32fc99c12eca1eec16be94490a9b830884982c6398f44fa0794a2b07818e4953c635159b24e0f5a451c479769e9937984fe918933da066f12b5",
       "category": "requiredparameters",
       "subcategory": "",
       "hash": "6156637f693e9deaadb2ae84877e30d17addc5105e8796d8d6d6e3996b988293c35502fdfdd675d4a72f0ae7607bdd3cf1450d15ac2a2cc74aeded04ecef10b8",
@@ -49,12 +49,12 @@
         "out": "",
         "err": "Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.03391456604003906
+      "time": 0.03850436210632324
     },
-    "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh",
+    "e8861474bb32882e71030bc31ce122a189540130aa1e3a3681dba5a4a108347522fe7795ba5ce472cc0a655f09dd29a1812e0baca6b0dae6072b577de3157482": {
+      "plugin": "ipivalidations/core/requiredparameters/network/prov_nic.sh",
       "backend": "core",
-      "id": "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
+      "id": "e8861474bb32882e71030bc31ce122a189540130aa1e3a3681dba5a4a108347522fe7795ba5ce472cc0a655f09dd29a1812e0baca6b0dae6072b577de3157482",
       "category": "requiredparameters",
       "subcategory": "requiredparameters/network",
       "hash": "fca2c3723362abd8ace922dfc36062dca985575eb4413852b3cbb3ebcba14bf85cef2c2e39bce1f774de716b646371355c0177f50db63c7762e9a1bed319605b",
@@ -70,12 +70,12 @@
         "out": "",
         "err": ""
       },
-      "time": 0.03820943832397461
+      "time": 0.040549278259277344
     },
-    "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh",
+    "c896cc2d0be80b84574c4d53876975f906b3f94c306ec437a9f688afdf9c37f408ed2a8bda17f998342d92c90e1269333ac9a6658da81164c7e71e687fd60f03": {
+      "plugin": "ipivalidations/core/requiredparameters/network/pub_nic.sh",
       "backend": "core",
-      "id": "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5",
+      "id": "c896cc2d0be80b84574c4d53876975f906b3f94c306ec437a9f688afdf9c37f408ed2a8bda17f998342d92c90e1269333ac9a6658da81164c7e71e687fd60f03",
       "category": "requiredparameters",
       "subcategory": "requiredparameters/network",
       "hash": "aa159a2dc4b1ec532f170ce4cc9846fcd948d6689dbdff7bb906df66f584e9900d818667144bb82ea589cf913f5b50fc2c3c212f3d728d89fed75cc2a2819c21",
@@ -91,12 +91,12 @@
         "out": "",
         "err": ""
       },
-      "time": 0.03523063659667969
+      "time": 0.03474783897399902
     },
-    "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/build.sh",
+    "22e644b7bc0aa2633cc71f5fb9b49bbcd14fa7d7360eb26a813c762a193c7367ff61db5905f04d990dfc65b43c0d2ea1b59fc56777a4790e2e925512363c653b": {
+      "plugin": "ipivalidations/core/requiredparameters/openshift/build.sh",
       "backend": "core",
-      "id": "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b",
+      "id": "22e644b7bc0aa2633cc71f5fb9b49bbcd14fa7d7360eb26a813c762a193c7367ff61db5905f04d990dfc65b43c0d2ea1b59fc56777a4790e2e925512363c653b",
       "category": "requiredparameters",
       "subcategory": "requiredparameters/openshift",
       "hash": "dea7b581dcc9cb03c306a1ce4d6d53fe0ff9c0889acd4b17e961394c94ea73f0d56b2357e4676b8d4990ab4247178b398f0944de4ea98a5379a6ab1dc42092e1",
@@ -112,12 +112,12 @@
         "out": "",
         "err": ""
       },
-      "time": 0.0359196662902832
+      "time": 0.03507494926452637
     },
-    "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/version.sh",
+    "c6b16cb4211ea6a2cb5706a0d3df54ce74705d2a3338a51fa38f9c4cf28f8dac05c890f9f13af07e1cb520a38179ab719e090bd4e6b16451fc6282287ca24480": {
+      "plugin": "ipivalidations/core/requiredparameters/openshift/version.sh",
       "backend": "core",
-      "id": "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4",
+      "id": "c6b16cb4211ea6a2cb5706a0d3df54ce74705d2a3338a51fa38f9c4cf28f8dac05c890f9f13af07e1cb520a38179ab719e090bd4e6b16451fc6282287ca24480",
       "category": "requiredparameters",
       "subcategory": "requiredparameters/openshift",
       "hash": "2e2d817ce92433a696cd2f37e005124da4531f0be136d1e2dc0030bfaa61c741c8fbfafd9be2418dd0856953efe7cc9a65e28a07d67667c77cd9282eac3e53bc",
@@ -133,12 +133,12 @@
         "out": "",
         "err": ""
       },
-      "time": 0.03837394714355469
+      "time": 0.03479123115539551
     },
-    "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb": {
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
+    "e264150b3142b60b585893574e63ed072df2f41d8413da64a0bae3e4a14020408fcd2bb8862f3275073de877beab16b4ce4c94818620bff921eade2eae4852c1": {
+      "plugin": "ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh",
       "backend": "core",
-      "id": "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb",
+      "id": "e264150b3142b60b585893574e63ed072df2f41d8413da64a0bae3e4a14020408fcd2bb8862f3275073de877beab16b4ce4c94818620bff921eade2eae4852c1",
       "category": "requiredparameters",
       "subcategory": "",
       "hash": "7f159399274badc4a0ed2c969a5003321d3fbdb226d59ae95d2b2d97204a0c5d0c2160ca794cf9835e0dd9975e41cbd512919ff934f3b8386614ba8d4f6bb774",
@@ -154,155 +154,35 @@
         "out": "",
         "err": "Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory"
       },
-      "time": 0.03883528709411621
+      "time": 0.03452658653259277
     },
-    "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966": {
+    "ef1c2ed24ec50cc3194750c2e920031857b825a412ff10f4a478d237be9b96677309077f3dbd9329b39b12db3c396e46ff4d3e8177ad774fb5954d0959d57ea2": {
       "category": "Profiles: IPI-validations",
       "hash": "99f4fec93936cb5f2411a90a273518f62b5748629d9a45066f726eb8b7191b4c743d747bfb100e8809495f7d74c66512001e4d655db40ef7f78b499a01ba2eda",
-      "plugin": "/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/profiles/IPI-validations.txt",
+      "plugin": "ipivalidations/profiles/IPI-validations.txt",
       "name": "Profiles: IPI-validations",
       "result": {
         "rc": 20,
-        "err": "[{\"plugin_id\": \"6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/optimizations/cache_enabled.sh\", \"err\": \"It's recommended to set cache_enabled = True to improve performance\", \"rc\": 40}, {\"plugin_id\": \"9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/network/pub_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/build.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/openshift/version.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb\", \"plugin\": \"/home/iranzo/DEVEL/RH/syseng/DIT/ipival/ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}]",
+        "err": "[{\"plugin_id\": \"ced44ca97004b169036eaf92e0273b5229e2ece79a5c9ffd6f590ffa1faff409b3e9054285a59cf906e79c64ab76910614cea2def23b9eb235bea04c6080f216\", \"plugin\": \"ipivalidations/core/optimizations/cache_enabled.sh\", \"err\": \"It's recommended to set cache_enabled = True to improve performance\", \"rc\": 40}, {\"plugin_id\": \"2fbb5eb9dbbdb32fc99c12eca1eec16be94490a9b830884982c6398f44fa0794a2b07818e4953c635159b24e0f5a451c479769e9937984fe918933da066f12b5\", \"plugin\": \"ipivalidations/core/requiredparameters/apiVIP.sh\", \"err\": \"Missing option apiVIP for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}, {\"plugin_id\": \"e8861474bb32882e71030bc31ce122a189540130aa1e3a3681dba5a4a108347522fe7795ba5ce472cc0a655f09dd29a1812e0baca6b0dae6072b577de3157482\", \"plugin\": \"ipivalidations/core/requiredparameters/network/prov_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"c896cc2d0be80b84574c4d53876975f906b3f94c306ec437a9f688afdf9c37f408ed2a8bda17f998342d92c90e1269333ac9a6658da81164c7e71e687fd60f03\", \"plugin\": \"ipivalidations/core/requiredparameters/network/pub_nic.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"22e644b7bc0aa2633cc71f5fb9b49bbcd14fa7d7360eb26a813c762a193c7367ff61db5905f04d990dfc65b43c0d2ea1b59fc56777a4790e2e925512363c653b\", \"plugin\": \"ipivalidations/core/requiredparameters/openshift/build.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"c6b16cb4211ea6a2cb5706a0d3df54ce74705d2a3338a51fa38f9c4cf28f8dac05c890f9f13af07e1cb520a38179ab719e090bd4e6b16451fc6282287ca24480\", \"plugin\": \"ipivalidations/core/requiredparameters/openshift/version.sh\", \"err\": \"\", \"rc\": 10}, {\"plugin_id\": \"e264150b3142b60b585893574e63ed072df2f41d8413da64a0bae3e4a14020408fcd2bb8862f3275073de877beab16b4ce4c94818620bff921eade2eae4852c1\", \"plugin\": \"ipivalidations/core/requiredparameters/provisioningNetworkInterface.sh\", \"err\": \"Missing option provisioningNetworkInterface for /home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test/inventory\", \"rc\": 20}]",
         "out": ""
       },
       "time": 0,
       "backend": "profile",
-      "id": "617156099ff0767ae5ff623708da4c72716ed5bb0ecb4fd8b492764e87f9ea216cd762da17907f475fceb6eabcacddf3a075fc4e8d17dd1c81e5a99f2e568966",
+      "id": "ef1c2ed24ec50cc3194750c2e920031857b825a412ff10f4a478d237be9b96677309077f3dbd9329b39b12db3c396e46ff4d3e8177ad774fb5954d0959d57ea2",
       "subcategory": "",
       "description": "Checks IPI Validations results",
       "long_name": "IPI Validations",
       "bugzilla": "",
       "priority": 0,
       "components": [
-        "6a4599a616e4080ef0f5684f0c214f5eef5dae812a2bcdf3ad23d2cc8b971501adf1b57e5ddf2269862ffef2b77a76e55e43911f9969c19a584120757bd5a927",
-        "9d7227818d2248f7c6f4608559d00f12445f05bf748cf3928f6fb7c0a87f447608ed2459ac2c531f52d60c5705ac82b6b414e5a50bd62a896791c69543faaf0a",
-        "35e07d8a25179076e9f6eb6463adb7afd113d3b97de15e482708a9dd3e9538418792b661eb6ce20f65badca2d7b8b93d3e37f004c526e61365b2c4a44848ba52",
-        "e7dd29e0f57351e28f2a45eab9c997a289da1f7791ed063475a054cb03a00d8cf5f231d8fb36a9346e272e7149ee759a88f28ad46e93c67c07ee67ebf56c84a5",
-        "2ad9b3c290b921aaa55477e5a773c73bcc36b253cb18362f38e03575d286cafd1c2e67eba62a0305821b5d189b807f56a07823f990d225d6fabb1780f947cc4b",
-        "8c65203fe2963f7d8345ef377ede062fb60945ff7d408cc912c7ad7e1d777ecdba08108e8d9035a50ee91342ae2c07069ddb6aef8447c6a92a516b73ab3c6de4",
-        "ec1ef1905e1ba7d9ca7abae766ab505c6600c893912bc5babf703c4339e8868872627b852ba3ce082cb25d6c7a9105f59b715eaadfb9b0f72223d557b4ee45cb"
+        "ced44ca97004b169036eaf92e0273b5229e2ece79a5c9ffd6f590ffa1faff409b3e9054285a59cf906e79c64ab76910614cea2def23b9eb235bea04c6080f216",
+        "2fbb5eb9dbbdb32fc99c12eca1eec16be94490a9b830884982c6398f44fa0794a2b07818e4953c635159b24e0f5a451c479769e9937984fe918933da066f12b5",
+        "e8861474bb32882e71030bc31ce122a189540130aa1e3a3681dba5a4a108347522fe7795ba5ce472cc0a655f09dd29a1812e0baca6b0dae6072b577de3157482",
+        "c896cc2d0be80b84574c4d53876975f906b3f94c306ec437a9f688afdf9c37f408ed2a8bda17f998342d92c90e1269333ac9a6658da81164c7e71e687fd60f03",
+        "22e644b7bc0aa2633cc71f5fb9b49bbcd14fa7d7360eb26a813c762a193c7367ff61db5905f04d990dfc65b43c0d2ea1b59fc56777a4790e2e925512363c653b",
+        "c6b16cb4211ea6a2cb5706a0d3df54ce74705d2a3338a51fa38f9c4cf28f8dac05c890f9f13af07e1cb520a38179ab719e090bd4e6b16451fc6282287ca24480",
+        "e264150b3142b60b585893574e63ed072df2f41d8413da64a0bae3e4a14020408fcd2bb8862f3275073de877beab16b4ce4c94818620bff921eade2eae4852c1"
       ]
-    },
-    "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0": {
-      "category": "Profiles: CCN-STIC-619",
-      "hash": "16c236317f17555e8b66bff6a27eb2a8282449d2ba7dc4388f1f44a4376b6ff375a9703f41b70e1fab4455d43c1de23f7e88326a5f4a9a589f548a4e35fded93",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/CCN-STIC-619.txt",
-      "name": "Profiles: CCN-STIC-619",
-      "result": {
-        "rc": 10,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "ea6ba67da886a70ebb13fa597f9301f33c2d9bb8b6ad1325bf68ec3b27ab6ec38ddb0f7c0690ada80045670cb7340a81e06d84f758d78fe637fb13d93afb3af0",
-      "subcategory": "",
-      "description": "CCN-STIC-619 compliance-related checks",
-      "long_name": "CCN-STIC-619 checks",
-      "bugzilla": "",
-      "priority": 1000,
-      "components": []
-    },
-    "d919fa1e68d9255a1cb5f239e452445d7389482a8e360280db8851b8c49d6de12bf555d9918121fd3706d6ed7d4ee986ac1bceb848d7c92354d4b6cc1b3e91f2": {
-      "category": "Profiles: cluster",
-      "hash": "2388acb2bbd7d74986055f8c4c62d5a5e9151003a003be024aa59e3ab8b25b9660a60808907915e28978948c3fdfbdd84c7112a0b036abe626b2bd7d24b55288",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/cluster.txt",
-      "name": "Profiles: cluster",
-      "result": {
-        "rc": 10,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "d919fa1e68d9255a1cb5f239e452445d7389482a8e360280db8851b8c49d6de12bf555d9918121fd3706d6ed7d4ee986ac1bceb848d7c92354d4b6cc1b3e91f2",
-      "subcategory": "",
-      "description": "Checks for several plugins related with ClusterHA environments",
-      "long_name": "Cluster profile checks",
-      "bugzilla": "",
-      "priority": 0,
-      "components": []
-    },
-    "2d6b2fb44ccf3b64b3c442a61d2863b5a3c7f6c40b42330a1a1ab1ba88d2362ff06a6b3bf070143927a683a80664ebd7fa7842e79c4a51bdc3265a69b7d5491b": {
-      "category": "Profiles: sysinfo-lifecycle",
-      "hash": "c0aa748d26825c15585e9e8defacd72fe5fa9a51ca4c4a6cc0c7effc51019f6add8c048253f060ded50995159b1df2ac11a821508cb5cc00b8fcc2e964fe110e",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/sysinfo-lifecycle.txt",
-      "name": "Profiles: sysinfo-lifecycle",
-      "result": {
-        "rc": 30,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "2d6b2fb44ccf3b64b3c442a61d2863b5a3c7f6c40b42330a1a1ab1ba88d2362ff06a6b3bf070143927a683a80664ebd7fa7842e79c4a51bdc3265a69b7d5491b",
-      "subcategory": "",
-      "description": "Lifecycle information data for installed products",
-      "long_name": "Lifecycle information data for installed products",
-      "bugzilla": "",
-      "priority": 1000,
-      "components": []
-    },
-    "e0d49de389092ab1fa8b67386eb8e128b845e064c1f5c4085f9b35a17b6a0357c96280069d3c1783f4a5207663b6b4108c3f696afd1b4b87390e59d32ecbbf7d": {
-      "category": "Profiles: sysinfo-openshift",
-      "hash": "e210408fd61ca67fadf91a373152c0e66a9fe3b284af761c5661b1b41d680624bee0af0c30a180f570232a4d521095711043fc75a3ea6fac8604ccd6c709729e",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/sysinfo-openshift.txt",
-      "name": "Profiles: sysinfo-openshift",
-      "result": {
-        "rc": 30,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "e0d49de389092ab1fa8b67386eb8e128b845e064c1f5c4085f9b35a17b6a0357c96280069d3c1783f4a5207663b6b4108c3f696afd1b4b87390e59d32ecbbf7d",
-      "subcategory": "",
-      "description": "Reports several useful system information for OpenStack",
-      "long_name": "System information data for OpenShift",
-      "bugzilla": "",
-      "priority": 1000,
-      "components": []
-    },
-    "389a21ef4b63917775d9aec44fe34d595108c524e2802ed515584c2a379390879c1693ae6d4d7f1f8c066320b79eed970c81d4c55027bc045b44923bc05dc245": {
-      "category": "Profiles: sysinfo-openstack",
-      "hash": "583b184e35f73d1d099783c4977c9e6184832c624073144787a12d377b4ea28e69c4deaa1873031c5b830aeff27258d6f4456de8793e4cb5a7b148222440bc52",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/sysinfo-openstack.txt",
-      "name": "Profiles: sysinfo-openstack",
-      "result": {
-        "rc": 30,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "389a21ef4b63917775d9aec44fe34d595108c524e2802ed515584c2a379390879c1693ae6d4d7f1f8c066320b79eed970c81d4c55027bc045b44923bc05dc245",
-      "subcategory": "",
-      "description": "Reports several useful system information for OpenStack",
-      "long_name": "System information data for OpenStack",
-      "bugzilla": "",
-      "priority": 1000,
-      "components": []
-    },
-    "772c7ef49093039f20895be646e3277b71f3fe2d543cbfc99d0a6a0366326f532d0df87c0f6117889542cf73031ca3f758a01a684d2acf1d7964c9fe334f1e09": {
-      "category": "Profiles: sysinfo",
-      "hash": "00a1c0fe2bdcb9fb5011048a443aa95ef19e9c3caf05fbb0b7840204824d5400ac460ac499b4e4e1d098170ee6300c873e95a4bc440458216bf929386632c740",
-      "plugin": "/home/iranzo/DEVEL/citellus/citellus/citellusclient/plugins/profiles/sysinfo.txt",
-      "name": "Profiles: sysinfo",
-      "result": {
-        "rc": 30,
-        "err": "[]",
-        "out": ""
-      },
-      "time": 0,
-      "backend": "profile",
-      "id": "772c7ef49093039f20895be646e3277b71f3fe2d543cbfc99d0a6a0366326f532d0df87c0f6117889542cf73031ca3f758a01a684d2acf1d7964c9fe334f1e09",
-      "subcategory": "",
-      "description": "Reports several useful system information",
-      "long_name": "System information data",
-      "bugzilla": "",
-      "priority": 1000,
-      "components": []
     }
   }
 }
