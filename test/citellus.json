@@ -6,7 +6,8 @@
     "time": 0.1579277515411377,
     "branding": "                                                  ",
     "extranames": null,
-    "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test"
+    "path": "/home/iranzo/Shared/RHDEVEL/syseng/DIT/ipival/test",
+    "title": "Ansible IPI Validations"
   },
   "results": {
     "ced44ca97004b169036eaf92e0273b5229e2ece79a5c9ffd6f590ffa1faff409b3e9054285a59cf906e79c64ab76910614cea2def23b9eb235bea04c6080f216": {
