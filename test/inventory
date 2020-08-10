@@ -1,0 +1,73 @@
+[all:vars]
+
+###############################################################################
+# Required configuration variables for IPI on Baremetal Installations         #
+###############################################################################
+
+# The provisioning NIC (NIC1) used on all baremetal nodes
+prov_nic=eno1
+
+# The public NIC (NIC2) used on all baremetal nodes
+pub_nic=eno3
+
+# (Optional) Activation-key for proper setup of subscription-manager, empty value skips registration
+#activation_key=""
+
+# (Optional) Activation-key org_id for proper setup of subscription-manager, empty value skips registration
+#org_id=""
+
+# The directory used to store the cluster configuration files (install-config.yaml, pull-secret.txt, metal3-config.yaml)
+dir="{{ ansible_user_dir }}/clusterconfigs"
+
+# The version of the openshift-installer, undefined or empty results in the playbook failing with error message.
+# Values accepted: 'latest-4.3', 'latest-4.4', explicit version i.e. 4.3.0-0.nightly-2019-12-09-035405
+# version="4.4.0-0.nightly-2020-04-03-042048"
+# version="4.5.0-0.nightly-2020-03-27-113803"
+# version='4.4.0-0.nightly-2020-04-27-013217'
+version='4.5.0-0.nightly-2020-05-11-032504'
+
+# Enter whether the build should use 'dev' (nightly builds) or 'ga' for Generally Available version of OpenShift
+# Empty value results in playbook failing with error message.
+build="dev"
+
+# Provisioning IP address (default value)
+prov_ip=172.22.0.3
+
+
+# Enable cache
+cache_enabled=fAlSe
+
+######################################
+# Vars regarding install-config.yaml #
+######################################
+
+# Base domain, i.e. example.com
+domain="mycloud.com"
+# Name of the cluster, i.e. openshift
+cluster="kni3"
+# The public CIDR address, i.e. 10.1.1.0/21
+extcidrnet="10.19.3.128/26"
+# An IP reserved on the baremetal network.
+dnsvip="10.19.3.130"
+# Number of workers nodes to deploy
+#numworkers="0"
+# Number of master nodes to deploy
+#nummasters="3"
+# A copy of your pullsecret from https://cloud.redhat.com/openshift/install/metal/user-provisioned
+pullsecret='{"auths":{"cloud.openshift.com":{"auth":"mypullsecret","email":"myemail.com"},"quay.io":{"auth":"myauth","email":"myemail"},"registry.connect.redhat.com":{"auth":"myauth","email":"myemail"},"registry.redhat.io":{"auth":"myauth","email":"myemail"},"registry.svc.ci.openshift.org": { "auth": "myauth==" } } }'
+
+
+# Master nodes
+[masters]
+kni3-master-0 name=kni3-master-0 role=master ipmi_user=root ipmi_password=myipmipassword ipmi_address=10.19.143.83 provision_mac=ec:f4:bb:c5:f2:00
+kni3-master-1 name=kni3-master-1 role=master ipmi_user=root ipmi_password=myipmipassword ipmi_address=10.19.143.84 provision_mac=ec:f4:bb:c6:08:98
+kni3-master-2 name=kni3-master-2 role=master ipmi_user=root ipmi_password=myipmipassword ipmi_address=10.19.143.85 provision_mac=ec:f4:bb:c5:f1:e0
+
+# Worker nodes
+[workers]
+#worker-0 name=worker-0 role=worker ipmi_user=admin ipmi_password=password ipmi_address=192.168.1.4 provision_mac=ec:f4:bb:da:0c:18
+#worker-1 name=worker-1 role=worker ipmi_user=admin ipmi_password=password ipmi_address=192.168.1.5 provision_mac=ec:f4:bb:da:32:28
+
+# Provision Host
+[provisioner]
+kni3-deployhost.kni3.mycloud.com
