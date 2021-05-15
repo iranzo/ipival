@@ -1,4 +1,4 @@
-name: Run Citellus analysis
+name: Run Risu analysis
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
     - cron:  '0 0 * * *'
 
 jobs:
-  citellus:
+  risu:
     runs-on: ubuntu-16.04
     steps:
     - uses: actions/checkout@v2.3.4
@@ -21,7 +21,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
 
-    - uses: citellusorg/gh-action-citellus@1.0
+    - uses: risuorg/gh-action-risu@1.0.3
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         SOSREPORT: test
