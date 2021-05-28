@@ -6,20 +6,20 @@
 import os
 from unittest import TestCase
 
-import citellusclient.shell as citellus
+import risuclient.shell as risu
 
-testplugins = os.path.join(citellus.citellusdir, "plugins", "test")
-citellusdir = citellus.citellusdir
+testplugins = os.path.join(risu.risudir, "plugins", "test")
+risudir = risu.risudir
 
 
-class CitellusTest(TestCase):
+class risuTest(TestCase):
     def test_findplugins_positive_filter_include(self):
-        plugins = citellus.findplugins([testplugins], include=["exit_passed"])
+        plugins = risu.findplugins([testplugins], include=["exit_passed"])
 
         assert len(plugins) == 1
 
     def test_findplugins_positive_filter_exclude(self):
-        plugins = citellus.findplugins(
+        plugins = risu.findplugins(
             [testplugins], exclude=["exit_passed", "exit_skipped"]
         )
 
@@ -27,21 +27,21 @@ class CitellusTest(TestCase):
             assert "exit_passed" not in plugin and "exit_skipped" not in plugin
 
     def test_findplugins_positive(self):
-        assert len(citellus.findplugins([testplugins])) != 0
+        assert len(risu.findplugins([testplugins])) != 0
 
     def test_findplugins_negative(self):
-        assert citellus.findplugins("__does_not_exist__") == []
+        assert risu.findplugins("__does_not_exist__") == []
 
     def test_which(self):
-        assert citellus.which("/bin/sh") == "/bin/sh"
+        assert risu.which("/bin/sh") == "/bin/sh"
 
     def test_findplugins_ext(self):
         plugins = []
-        folder = [os.path.join(citellus.citellusdir, "plugins", "core")]
-        for each in citellus.findplugins(folders=folder, fileextension=".sh"):
+        folder = [os.path.join(risu.risudir, "plugins", "core")]
+        for each in risu.findplugins(folders=folder, fileextension=".sh"):
             plugins.append(each)
         assert len(plugins) != 0
 
     def test_readconfig(self):
-        parsed = citellus.read_config()
+        parsed = risu.read_config()
         assert parsed == {}
